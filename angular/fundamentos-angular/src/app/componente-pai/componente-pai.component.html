@@ -1,0 +1,4 @@
+<h2>Interação entre componentes</h2>
+<h3>O sobrenome está definido no elemento pai : {{Sobrenome}}</h3>
+<h3>O nome completo é: {{filho.nome}} {{Sobrenome}}</h3>
+<app-componente-filho [Sobrenome]="Sobrenome" (montranome)="mostrarNomeCompleto($event)" #filho></app-componente-filho>
