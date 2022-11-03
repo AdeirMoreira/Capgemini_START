@@ -1,0 +1,2 @@
+VariaveisTiposOperadores/Main.java
+ VariaveisTiposOperadores.Main
